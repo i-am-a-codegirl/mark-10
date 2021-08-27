@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Cash Register</title>
+</head>
+
+
+<body>
+    <img src="cashregisterimg.jpg" />
+    
+    <div class="container center">
+     <h1 class="heading">Cash Register Manager</h1>
+
+     <p class="description">Enter the bill amount and enter cash given by the customer. Then click on check button for calculating the currency notes that need to be retuen as change.</p>
+     
+     <div class="input-bill">
+     <label for="bill-amount" >Enter Bill Amount:</label>
+     <input  id="bill-amount" type="text" />
+     <button class="next-button">Next</button>
+     </div>
+
+     <div class="cash-input">
+     <label for="cash-given">Enter cash given:</label>
+     <input  id="cash-given" type="text" />
+     <button id="check-button">Check</button>
+</div>
+
+     <p id = "error-message"></p>
+
+     <div class="final-output">
+     <table class="change-table">
+     <caption>Return change- with currency notes</caption>
+
+     <tr>
+         <th>No. of Notes</th>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+         <td id="no-of-notes"></td>
+     </tr>
+
+     <tr>
+         <th>Currency Notes avialable</th>
+         <td >2000</td>
+         <td >500</td>
+         <td >100</td>
+         <td >50</td>
+         <td >20</td>
+         <td >10</td>
+         <td >1</td>
+     </tr>
+    </table>
+    </div>
+</div>
+    
+</body>
+
+<script src="./app.js"></script>
+</html>
