@@ -11,7 +11,7 @@ const cashGiven = document.querySelector("#cash-given");
  
  
 
- const avialableNotes = [2000, 500, 100, 50, 20, 10, 1];
+ const avialableNotes = [2000, 500, 100, 50, 20, 10, 5, 1];
 
  nextButton.addEventListener("click", function checkBillAmount() {
    hideMessage();
